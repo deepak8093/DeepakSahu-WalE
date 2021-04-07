@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		006FBDF0261DEF8100F0D46F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FBDEF261DEF8100F0D46F /* AppDelegate.swift */; };
 		006FBDF2261DEF8100F0D46F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FBDF1261DEF8100F0D46F /* SceneDelegate.swift */; };
-		006FBDF4261DEF8100F0D46F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FBDF3261DEF8100F0D46F /* ViewController.swift */; };
 		006FBDF7261DEF8100F0D46F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006FBDF5261DEF8100F0D46F /* Main.storyboard */; };
 		006FBDF9261DEF8300F0D46F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006FBDF8261DEF8300F0D46F /* Assets.xcassets */; };
 		006FBDFC261DEF8400F0D46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006FBDFA261DEF8400F0D46F /* LaunchScreen.storyboard */; };
+		006FBE09261DF64E00F0D46F /* ApiCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FBE08261DF64E00F0D46F /* ApiCommunicator.swift */; };
+		006FBE0F261DF6AD00F0D46F /* ApodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FBE0E261DF6AD00F0D46F /* ApodViewController.swift */; };
+		006FBE12261DF6DF00F0D46F /* ApodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FBE11261DF6DF00F0D46F /* ApodView.swift */; };
+		006FBE15261DF6EF00F0D46F /* ApodView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 006FBE14261DF6EF00F0D46F /* ApodView.xib */; };
+		006FBE18261DF76D00F0D46F /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FBE17261DF76D00F0D46F /* InternetConnection.swift */; };
+		006FBE1C261DFB7E00F0D46F /* ApodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FBE1B261DFB7E00F0D46F /* ApodModel.swift */; };
+		006FBE24261E094A00F0D46F /* ApodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FBE23261E094A00F0D46F /* ApodViewModel.swift */; };
+		006FBE28261E191700F0D46F /* StringExten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FBE27261E191700F0D46F /* StringExten.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		006FBDEC261DEF8000F0D46F /* WalEAstroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalEAstroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		006FBDEF261DEF8100F0D46F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		006FBDF1261DEF8100F0D46F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		006FBDF3261DEF8100F0D46F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		006FBDF6261DEF8100F0D46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		006FBDF8261DEF8300F0D46F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		006FBDFB261DEF8400F0D46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		006FBDFD261DEF8400F0D46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006FBE08261DF64E00F0D46F /* ApiCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCommunicator.swift; sourceTree = "<group>"; };
+		006FBE0E261DF6AD00F0D46F /* ApodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodViewController.swift; sourceTree = "<group>"; };
+		006FBE11261DF6DF00F0D46F /* ApodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodView.swift; sourceTree = "<group>"; };
+		006FBE14261DF6EF00F0D46F /* ApodView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApodView.xib; sourceTree = "<group>"; };
+		006FBE17261DF76D00F0D46F /* InternetConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnection.swift; sourceTree = "<group>"; };
+		006FBE1B261DFB7E00F0D46F /* ApodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodModel.swift; sourceTree = "<group>"; };
+		006FBE23261E094A00F0D46F /* ApodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodViewModel.swift; sourceTree = "<group>"; };
+		006FBE27261E191700F0D46F /* StringExten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExten.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,70 @@
 		006FBDEE261DEF8000F0D46F /* WalEAstroApp */ = {
 			isa = PBXGroup;
 			children = (
+				006FBE05261DF5CD00F0D46F /* NASA_APOD */,
 				006FBDEF261DEF8100F0D46F /* AppDelegate.swift */,
 				006FBDF1261DEF8100F0D46F /* SceneDelegate.swift */,
-				006FBDF3261DEF8100F0D46F /* ViewController.swift */,
 				006FBDF5261DEF8100F0D46F /* Main.storyboard */,
 				006FBDF8261DEF8300F0D46F /* Assets.xcassets */,
 				006FBDFA261DEF8400F0D46F /* LaunchScreen.storyboard */,
 				006FBDFD261DEF8400F0D46F /* Info.plist */,
 			);
 			path = WalEAstroApp;
+			sourceTree = "<group>";
+		};
+		006FBE05261DF5CD00F0D46F /* NASA_APOD */ = {
+			isa = PBXGroup;
+			children = (
+				006FBE22261E092F00F0D46F /* ApodViewModel */,
+				006FBE1A261DFB5900F0D46F /* ApodModel */,
+				006FBE0C261DF65C00F0D46F /* ApodViewContoller */,
+				006FBE07261DF5FB00F0D46F /* ApodView */,
+				006FBE06261DF5ED00F0D46F /* Utility */,
+			);
+			path = NASA_APOD;
+			sourceTree = "<group>";
+		};
+		006FBE06261DF5ED00F0D46F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				006FBE08261DF64E00F0D46F /* ApiCommunicator.swift */,
+				006FBE17261DF76D00F0D46F /* InternetConnection.swift */,
+				006FBE27261E191700F0D46F /* StringExten.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		006FBE07261DF5FB00F0D46F /* ApodView */ = {
+			isa = PBXGroup;
+			children = (
+				006FBE11261DF6DF00F0D46F /* ApodView.swift */,
+				006FBE14261DF6EF00F0D46F /* ApodView.xib */,
+			);
+			path = ApodView;
+			sourceTree = "<group>";
+		};
+		006FBE0C261DF65C00F0D46F /* ApodViewContoller */ = {
+			isa = PBXGroup;
+			children = (
+				006FBE0E261DF6AD00F0D46F /* ApodViewController.swift */,
+			);
+			path = ApodViewContoller;
+			sourceTree = "<group>";
+		};
+		006FBE1A261DFB5900F0D46F /* ApodModel */ = {
+			isa = PBXGroup;
+			children = (
+				006FBE1B261DFB7E00F0D46F /* ApodModel.swift */,
+			);
+			path = ApodModel;
+			sourceTree = "<group>";
+		};
+		006FBE22261E092F00F0D46F /* ApodViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				006FBE23261E094A00F0D46F /* ApodViewModel.swift */,
+			);
+			path = ApodViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006FBE15261DF6EF00F0D46F /* ApodView.xib in Resources */,
 				006FBDFC261DEF8400F0D46F /* LaunchScreen.storyboard in Resources */,
 				006FBDF9261DEF8300F0D46F /* Assets.xcassets in Resources */,
 				006FBDF7261DEF8100F0D46F /* Main.storyboard in Resources */,
@@ -137,9 +207,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				006FBDF4261DEF8100F0D46F /* ViewController.swift in Sources */,
+				006FBE28261E191700F0D46F /* StringExten.swift in Sources */,
+				006FBE18261DF76D00F0D46F /* InternetConnection.swift in Sources */,
+				006FBE1C261DFB7E00F0D46F /* ApodModel.swift in Sources */,
 				006FBDF0261DEF8100F0D46F /* AppDelegate.swift in Sources */,
 				006FBDF2261DEF8100F0D46F /* SceneDelegate.swift in Sources */,
+				006FBE12261DF6DF00F0D46F /* ApodView.swift in Sources */,
+				006FBE0F261DF6AD00F0D46F /* ApodViewController.swift in Sources */,
+				006FBE24261E094A00F0D46F /* ApodViewModel.swift in Sources */,
+				006FBE09261DF64E00F0D46F /* ApiCommunicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +364,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WalEAstroApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahu.deepak.WalE.WalEAstroApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,6 +383,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WalEAstroApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahu.deepak.WalE.WalEAstroApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
