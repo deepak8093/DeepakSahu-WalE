@@ -31,6 +31,10 @@ class ApodView: UIView {
     }
     func updateView(_ data: ApodViewData){
         self.image.image = data.image
+        self.image.transform = CGAffineTransform(scaleX: 1.1, y: 1.1)
+        UIView.animate(withDuration: 0.3, delay: 0, options: UIView.AnimationOptions.curveEaseIn) {
+            self.image.transform = .identity
+        } completion: { (_) in}        
         self.title.text = data.title
         self.description_i.text = data.description
     }
@@ -43,6 +47,7 @@ class ApodView: UIView {
         self.errorView.isHidden = true
 
     }
+    
     override func awakeFromNib() {
         addXibToView()
         super.awakeFromNib()

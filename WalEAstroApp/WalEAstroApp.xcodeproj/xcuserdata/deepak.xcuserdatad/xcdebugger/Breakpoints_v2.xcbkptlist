@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "493B223C-2CE6-409E-8CA6-150CDACC6B68"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WalEAstroApp/NASA_APOD/ApodModel/ApodModel.swift"
@@ -71,16 +71,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3CE8C190-0805-4906-BFCE-72F23C516BC0"
+            uuid = "9F3497D4-1C73-404A-9ED8-7138CA953A3E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WalEAstroApp/NASA_APOD/ApodView/ApodView.swift"
+            filePath = "WalEAstroApp/NASA_APOD/Utility/Loader.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "showError()"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "showLoader(_:text:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46B68F7E-39F1-4315-B219-50FEC35AC3F4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WalEAstroApp/NASA_APOD/Utility/Loader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "showLoader(_:text:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

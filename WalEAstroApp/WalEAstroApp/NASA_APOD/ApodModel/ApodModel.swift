@@ -45,7 +45,7 @@ class ApodUserDefault{
         if isImageExist(){
             UserDefaults.standard.removeObject(forKey: "wal-e-image")
         }
-        let date = Date().string(format: "ddMMyyyy")
+        let date = Date().string(format: "ddMMyyyy")//To test Acceptance Criteria 3: Change date here manually 
         storeLocal(newImage)
         let store = StoreImage.init(image: "", date: date, title: json.title, description: json.explanation)
         UserDefaults.standard.set(try? PropertyListEncoder().encode(store), forKey: "wal-e-image")

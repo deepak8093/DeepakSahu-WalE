@@ -14,6 +14,7 @@ class ApodViewController: UIViewController {
         super.viewDidLoad()
         viewModel.delegate = self
         if Network.isConnected(){
+            Loader.shared().showLoader(self.view, text: "Connecting...")
             apodView.hideError()
             if let request = ApodRequest.generateRequest("1vjePhiYQVn5Ub3hKwbEucCcKFfCTqbf61k51Fcd", stringUrl: APPURL.apod_image){
                 viewModel.featchData(request)
@@ -34,11 +35,13 @@ class ApodViewController: UIViewController {
 extension ApodViewController: ApodDataDelegate{
     func reloadImage() {
         DispatchQueue.main.async {
+            Loader.shared().stopLoader()
             self.apodView.updateView(self.viewModel.viewData)
         }
     }
     func apiResponseApod(_ apod: Apod, error: APIError) {
         DispatchQueue.main.async {
+            Loader.shared().showLoader(self.view, text: "Downloading...")
             self.apodView.updateView(self.viewModel.viewData)
         }
     }

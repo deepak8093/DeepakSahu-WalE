@@ -20,6 +20,7 @@
 		006FBE1C261DFB7E00F0D46F /* ApodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FBE1B261DFB7E00F0D46F /* ApodModel.swift */; };
 		006FBE24261E094A00F0D46F /* ApodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FBE23261E094A00F0D46F /* ApodViewModel.swift */; };
 		006FBE28261E191700F0D46F /* StringExten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FBE27261E191700F0D46F /* StringExten.swift */; };
+		006FBE2C261EAD0D00F0D46F /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FBE2B261EAD0D00F0D46F /* Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		006FBE1B261DFB7E00F0D46F /* ApodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodModel.swift; sourceTree = "<group>"; };
 		006FBE23261E094A00F0D46F /* ApodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodViewModel.swift; sourceTree = "<group>"; };
 		006FBE27261E191700F0D46F /* StringExten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExten.swift; sourceTree = "<group>"; };
+		006FBE2B261EAD0D00F0D46F /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				006FBE08261DF64E00F0D46F /* ApiCommunicator.swift */,
 				006FBE17261DF76D00F0D46F /* InternetConnection.swift */,
 				006FBE27261E191700F0D46F /* StringExten.swift */,
+				006FBE2B261EAD0D00F0D46F /* Loader.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				006FBE18261DF76D00F0D46F /* InternetConnection.swift in Sources */,
 				006FBE1C261DFB7E00F0D46F /* ApodModel.swift in Sources */,
 				006FBDF0261DEF8100F0D46F /* AppDelegate.swift in Sources */,
+				006FBE2C261EAD0D00F0D46F /* Loader.swift in Sources */,
 				006FBDF2261DEF8100F0D46F /* SceneDelegate.swift in Sources */,
 				006FBE12261DF6DF00F0D46F /* ApodView.swift in Sources */,
 				006FBE0F261DF6AD00F0D46F /* ApodViewController.swift in Sources */,
